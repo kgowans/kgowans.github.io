@@ -1,0 +1,126 @@
+/*Fonts*/
+
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+
+/*font-family: 'Bitter', serif;*/
+
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700);
+
+/*font-family: 'Archivo Narrow', sans-serif;*/
+
+
+/*Colors*/
+
+
+/*89B4DB - Greyish blue*/
+
+
+/*Layout*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/sandpaper/sandpaper.png);
+}
+
+
+/*Nav Menu*/
+
+.navbar li a {
+    /*color: #CFD9E3;*/
+}
+
+#bootstrap-overide img {
+    width: 100%;
+    height: auto;
+}
+
+#bootstrap-overide li {
+    line-height: 2.6;
+}
+
+
+/*.navbar ul {
+    background-color: #89B4DB;
+    padding: 0.5em 0;
+}*/
+
+.navbar li {
+    /*    display: inline-block;
+    width: 19%;
+    text-align: center;*/
+}
+
+
+/*If the menu gives you trouble push the button down*/
+
+#bootstrap-overide button {
+    margin-top: 0.1rem;
+}
+
+    @media all and (min-width: 34rem) {
+    #bootstrap-overide li {
+        display: inline;
+    }
+}
+
+
+/*Avatar*/
+
+.avatarBox {
+    width: 110px;
+}
+
+.avatarBox img {
+    margin: 5px;
+    border-radius: 50%;
+    width: 100%
+}
+
+
+/*Form Information*/
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 100%;
+    padding: 0.3em;
+}
+
+label {
+    display: none;
+}
+
+.box {
+    padding: 0.5em;
+}
+
+
+/*Form Media Queries*/
+
+@media all and (min-width: 768px) {
+    label {
+        display: inline-block;
+    }
+    input[type="submit"] {
+        max-width: 50%;
+    }
+}
+
+@media all and (min-width: 992px) {}
+
+@media all and (min-width: 1200px) {}
