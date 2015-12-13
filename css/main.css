@@ -13,6 +13,10 @@
 
 
 /*
+
+Complementary Color Scheme 
+https://color.adobe.com/create/color-wheel/?base=4&rule=Complementary&selected=0&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.4863122529644269,0.5576705685618751,0.6100000000000001,0.9972332015810276,0.9988294314381271,1,0.6100000000000001,0.5356723474631465,0.42531225296442693,0.91,0.8723637319902848,0.8164822134387352,0.8164822134387352,0.8704347826086973,0.91&swatchOrder=0,2,3,4,1
+
 light blue - #D0DEE8
 grey - #FEFFFF
 pale brown - #E8DED0
@@ -54,6 +58,11 @@ h6 {
     font-family: 'Bitter', Helvetica, serif;
 }
 
+.btn-primary {
+    background-color: #7C8E9C;
+    border-color: #7C8E9C;
+}
+
 
 /*Home*/
 
@@ -64,16 +73,33 @@ h6 {
     text-align: center
 }
 
-main {
+main.container {
     padding-top: 0;
     padding-bottom: 1em;
+}
+
+ul {
+    padding-left: 1.5em;
+}
+
+.content {
+    padding: 1em;
 }
 
 
 /*Projects*/
 
+.card {
+    margin: 50px;
+}
+
 
 /*Contact*/
+
+p.description {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
 
 
 /*Footer*/
