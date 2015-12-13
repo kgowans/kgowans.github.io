@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-light bg-faded">
+        <nav class="navbar navbar-dark bg-faded">
             <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
                 &#9776;
             </button>
@@ -25,37 +25,41 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/projects">Projects</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/contact">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <h2>Contact Me</h2>
-        <p>If you like my work and you would like to contact me with job opportunities, you can contact me below. </p>
-        <form>
-            <fieldset>
-                <div class="col-md-6">
-                    <div>
-                        <label>Name:</label>
-                        <input type="text" placeholder="Name">
+        <main class="container">
+            <h2 class="page-header">Contact Me</h2>
+            <p>If you like my work and you would like to contact me with job opportunities, you can contact me below. </p>
+            <form>
+                <fieldset>
+                    <div class="col-md-6">
+                        <div>
+                            <label>Name:</label>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label>Email:</label>
+                            <input type="email" placeholder="Email">
+                        </div>
                     </div>
-                    <div>
-                        <label>Email:</label>
-                        <input type="email" placeholder="Email">
+                    <div class="col-md-6">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment" placeholder="Comment"></textarea>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <label for="comment">Comment:</label>
-                    <textarea class="form-control" rows="5" id="comment" placeholder="Comment"></textarea>
-                </div>
-                <div class="col-md-6">
-                    <input type="submit" value="Send Request">
-                </div>
-            </fieldset>
-        </form>
+                    <div class="col-md-6">
+                        <input type="submit" value="Send Request">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            &copy; KimCo 2015
+        </footer>
     </div>
-
 </body>
 
 </html>

@@ -2,17 +2,23 @@
 
 @import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
 
-/*font-family: 'Bitter', serif;*/
+/*font-family: 'Bitter', Helvetica, serif;*/
 
 @import url(https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700);
 
-/*font-family: 'Archivo Narrow', sans-serif;*/
+/*font-family: 'Archivo Narrow', Arial, sans-serif;*/
 
 
 /*Colors*/
 
 
-/*89B4DB - Greyish blue*/
+/*
+light blue - #D0DEE8
+grey - #FEFFFF
+pale brown - #E8DED0
+brown - #9C896C
+grey blue - #7C8E9C
+*/
 
 
 /*Layout*/
@@ -29,52 +35,64 @@ img {
 }
 
 body {
-    background-image: url(/img/sandpaper/sandpaper.png);
+    /* This pattern is downloaded from www.subtlepatterns.com */
+    background-image: url(/img/sandpaper.png);
+    font-family: 'Archivo Narrow', Arial, sans-serif;
+}
+
+.container {
+    background-color: #FEFFFF;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bitter', Helvetica, serif;
+}
+
+
+/*Home*/
+
+.page-header {
+    padding: 0.5em 0;
+    background-color: #D0DEE8;
+    color: #7C8E9C;
+    text-align: center
+}
+
+main {
+    padding-top: 0;
+    padding-bottom: 1em;
+}
+
+
+/*Projects*/
+
+
+/*Contact*/
+
+
+/*Footer*/
+
+footer {
+    background-color: #9C896C;
+    color: #FEFFFF;
+    text-align: center
 }
 
 
 /*Nav Menu*/
 
-.navbar li a {
-    /*color: #CFD9E3;*/
+.navbar-dark {
+    background-color: #7C8E9C;
 }
 
-#bootstrap-overide img {
-    width: 100%;
-    height: auto;
-}
-
-#bootstrap-overide li {
-    line-height: 2.6;
-}
-
-.navbar-light {
-    //background-color: #e3f2fd;
-}
-
-
-/*.navbar ul {
-    background-color: #89B4DB;
-    padding: 0.5em 0;
-}*/
-
-.navbar li {
-    /*    display: inline-block;
-    width: 19%;
-    text-align: center;*/
-}
-
-
-/*If the menu gives you trouble push the button down*/
-
-#bootstrap-overide button {
-    margin-top: 0.1rem;
-}
-
-@media all and (min-width: 34rem) {
-    #bootstrap-overide li {
-        display: inline;
-    }
+nav {
+    background-color: #7C8E9C;
 }
 
 
@@ -109,10 +127,6 @@ input {
 
 label {
     display: none;
-}
-
-.box {
-    background-color: white;
 }
 
 
