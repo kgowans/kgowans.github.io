@@ -23,6 +23,11 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 body {
     background-image: url(/img/sandpaper/sandpaper.png);
 }
@@ -41,6 +46,10 @@ body {
 
 #bootstrap-overide li {
     line-height: 2.6;
+}
+
+.navbar-light {
+    //background-color: #e3f2fd;
 }
 
 
@@ -62,7 +71,7 @@ body {
     margin-top: 0.1rem;
 }
 
-    @media all and (min-width: 34rem) {
+@media all and (min-width: 34rem) {
     #bootstrap-overide li {
         display: inline;
     }
@@ -71,14 +80,11 @@ body {
 
 /*Avatar*/
 
-.avatarBox {
-    width: 110px;
-}
-
 .avatarBox img {
+    max-height: 110px;
+    width: auto;
     margin: 5px;
     border-radius: 50%;
-    width: 100%
 }
 
 
@@ -106,7 +112,7 @@ label {
 }
 
 .box {
-    padding: 0.5em;
+    background-color: white;
 }
 
 

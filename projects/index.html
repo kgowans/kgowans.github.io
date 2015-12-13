@@ -3,53 +3,70 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
-    <script src="/jquery/dist/jquery.min.js"></script>
-    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <title>My Projects</title>
 </head>
 
 <body>
-    <div id="bootstrap-overide">
-        <div class="container">
-            <div class="navbar">
-                <a class="navbar-brand" href="#">Kimi G</a>
-                <button type="button" class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target=".navbar-collapse">&#9776;</button>
-
-                <div class="navbar-collapse collapse navbar-toggleable-xs">
-                    <ul class="nav navbar-nav">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="http://lorempixel.com/400/400/animals" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat amet nobis similique voluptate ab quam nam! Quaerat delectus fugiat, aliquam cumque qui optio perferendis dicta, adipisci quo blanditiis! Nihil, consectetur.</p>
+        <nav class="navbar navbar-light bg-faded">
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                &#9776;
+            </button>
+            <a class="navbar-brand" href="/">Kimi G</a>
+            <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="http://lorempixel.com/400/400/food" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aliquam vel veniam voluptate, id atque totam, minus beatae ipsa alias labore error facilis repudiandae accusamus quis in ullam, quam ex.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="http://lorempixel.com/400/400/animals" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur consequuntur quod dolorum, harum maiores, molestias nam soluta ea quam, veritatis nostrum nisi, ducimus iusto officiis! Suscipit, repellat aliquid autem blanditiis?</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="http://lorempixel.com/400/400/food" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nobis aperiam velit, vel sapiente fugit, minus amet dolores non. Quas, eligendi dolor illo ea voluptatum similique earum quaerat quia animi!</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <img src="http://lorempixel.com/400/400/animals" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quo, reiciendis repellat autem doloribus aliquid ipsa quae maxime molestiae id ex, debitis, velit hic repudiandae laborum eaque. Deserunt, ea, quisquam.</p>
+        </nav>
+
+        <h2>Projects</h2>
+
+        <div class="col-md-4 card">
+            <img class="card-img-top" data-src="..." alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Project 1</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Button</a>
             </div>
         </div>
+        <div class="col-md-4 card">
+            <img class="card-img-top" data-src="..." alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Project 1</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Button</a>
+            </div>
+        </div>
+        <div class="col-md-4 card">
+            <img class="card-img-top" data-src="..." alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Project 1</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Button</a>
+            </div>
+        </div>
+        <div class="col-md-4 card">
+            <img class="card-img-top" data-src="..." alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Project 1</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Button</a>
+            </div>
+        </div>
+
     </div>
 </body>
 

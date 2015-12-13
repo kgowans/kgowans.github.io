@@ -3,52 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
-    <script src="/jquery/dist/jquery.min.js"></script>
-    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <title>Contact Me</title>
 </head>
 
 <body>
-    <div id="bootstrap-overide">
-        <div class="container">
-            <div class="navbar">
-                <a class="navbar-brand" href="#">Kimi G</a>
-                <button type="button" class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target=".navbar-collapse">&#9776;</button>
-
-                <div class="navbar-collapse collapse navbar-toggleable-xs">
-                    <ul class="nav navbar-nav">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                    </ul>
-                </div>
+    <div class="container">
+        <nav class="navbar navbar-light bg-faded">
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+                &#9776;
+            </button>
+            <a class="navbar-brand" href="/">Kimi G</a>
+            <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects">Projects</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <h2>Contact Me</h2>
-            <p>If you like my work and you would like to contact me with job opportunities, you can contact me below. </p>
-            <form>
-                <fieldset>
-                    <div class="col-md-6">
-                        <div>
-                            <label>Name:</label>
-                            <input type="text" placeholder="Name">
-                        </div>
-                        <div>
-                            <label>Email:</label>
-                            <input type="email" placeholder="Email">
-                        </div>
+        </nav>
+        <h2>Contact Me</h2>
+        <p>If you like my work and you would like to contact me with job opportunities, you can contact me below. </p>
+        <form>
+            <fieldset>
+                <div class="col-md-6">
+                    <div>
+                        <label>Name:</label>
+                        <input type="text" placeholder="Name">
                     </div>
-                    <div class="col-md-6">
-                        <label for="comment">Comment:</label>
-                        <textarea class="form-control" rows="5" id="comment" placeholder="Comment"></textarea>
+                    <div>
+                        <label>Email:</label>
+                        <input type="email" placeholder="Email">
                     </div>
-                    <div class="col-md-6">
-                        <input type="submit" value="Send Request">
-                    </div>
-                </fieldset>
-            </form>
-        </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-control" rows="5" id="comment" placeholder="Comment"></textarea>
+                </div>
+                <div class="col-md-6">
+                    <input type="submit" value="Send Request">
+                </div>
+            </fieldset>
+        </form>
     </div>
 
 </body>
