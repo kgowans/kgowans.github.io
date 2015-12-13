@@ -101,6 +101,10 @@ p.description {
     padding-right: 1.5em;
 }
 
+form label {
+    padding-top: 1em;
+}
+
 
 /*Footer*/
 
