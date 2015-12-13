@@ -89,8 +89,8 @@ ul {
 
 /*Projects*/
 
-.card {
-    margin: 50px;
+.card-deck-wrapper {
+    padding: 1em;
 }
 
 
@@ -166,7 +166,3 @@ label {
         max-width: 50%;
     }
 }
-
-@media all and (min-width: 992px) {}
-
-@media all and (min-width: 1200px) {}
